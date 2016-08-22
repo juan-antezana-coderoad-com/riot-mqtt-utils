@@ -49,7 +49,8 @@ public class MqttClient {
         mqttMessage.setPayload(message.getBytes());
         try {
             client.publish(topic, mqttMessage);
-            logger.info(String.format("topic: %s message: %s", topic, message));
+            logger.info(String.format("Topic: %s", topic));
+            logger.info(String.format("Message: %s", message));
         } catch (MqttException e) {
             throw new RiotMqttException(e.getMessage(), e.getCause());
         }
