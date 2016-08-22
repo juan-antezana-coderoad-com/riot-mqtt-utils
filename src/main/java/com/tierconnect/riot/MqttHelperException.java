@@ -1,7 +1,10 @@
 package com.tierconnect.riot;
 
 /**
- * Created by Juan Antezana Adrian on 8/19/2016.
+ * MqttHelperException class.
+ *
+ * @author jantezana
+ * @version 8/19/16
  */
 public class MqttHelperException extends Exception {
 

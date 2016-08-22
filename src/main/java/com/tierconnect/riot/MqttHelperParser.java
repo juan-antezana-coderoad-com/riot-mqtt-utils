@@ -15,6 +15,9 @@ import java.io.IOException;
 
 /**
  * MqttHelperParser class.
+ *
+ * @author jantezana
+ * @version 8/19/16
  */
 public class MqttHelperParser {
     private static final Logger logger = Logger.getLogger(MqttHelperParser.class);

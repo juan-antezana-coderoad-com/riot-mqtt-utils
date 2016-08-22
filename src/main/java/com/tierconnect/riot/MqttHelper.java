@@ -8,7 +8,10 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by Juan Antezana Adrian on 8/19/2016.
+ * MqttHelper class.
+ *
+ * @author jantezana
+ * @version 8/19/16
  */
 public class MqttHelper {
     private final static Logger logger = Logger.getLogger(MqttHelper.class);

@@ -9,6 +9,9 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 /**
  * MqttClient class.
+ *
+ * @author jantezana
+ * @version 8/19/16
  */
 public class MqttClient {
 
